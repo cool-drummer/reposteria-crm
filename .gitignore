@@ -1,0 +1,40 @@
+# Node
+node_modules/
+
+# Build
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Docker
+**/mysql_data/
+**/redis_data/
+**/storage/
+
+# PHP
+backend/vendor/
+backend/storage/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Otros
+*.swp
+
+# Directorios de sistema
+Thumbs.db
+
+# Editores
+*.swp
+*.swo
+
+# Archivos de configuración local
+config.local.js 
