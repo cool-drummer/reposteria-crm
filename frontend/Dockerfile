@@ -13,10 +13,16 @@ RUN npm install
 COPY . .
 
 # Construir la aplicación
-##RUN npm run build
+
+
+RUN npm run build
+
+
+
+
 
 # Exponer el puerto
-EXPOSE 3000
+EXPOSE 3001
 
 # Comando para iniciar la aplicación
 CMD ["npm", "start"] 
